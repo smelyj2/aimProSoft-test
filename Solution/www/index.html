@@ -1,0 +1,355 @@
+
+<html>
+
+
+<meta charset="UTF-8">
+   <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<script src="https://code.jquery.com/jquery.min.js"></script> 
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		
+			 	 
+		<script src="js/bootstrap.min.js"></script>
+		
+		
+		<title> </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- ширина страницы на мобильных устройствах будет равна ширине экрана и начальный масштаб будет 100% -->
+		<link rel="stylesheet" href="css/styles.css"> 
+		
+		<script src="js/script.js"></script> 
+		<link href='https://fonts.googleapis.com/css?family=Rajdhani:500' rel='stylesheet' type='text/css'> <!-- подключение шрифта -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
+	
+		
+   </head>
+
+   <body>
+
+	<div class="all">	
+		<div class="topHeaderText"> 
+			<span>FRETE GRRATIS PARA COMPRAS ACIMA DE R$300.00</span>
+		</div>
+		
+		
+		<div class="headerImg">
+				
+			<div class="inHeaderText col-lg-8 col-sm-6 col-xs-8"> </div> 
+			<img src="images/headMainImageCopy.jpg" >
+				
+		</div>
+			
+			
+		<div class="topBlackLine">
+		
+			<div class="subBlock col-lg-8 col-sm-8 col-xs-6">
+				<div class="left-side">
+					<div class="wrapper1dropdownImage">
+						<input id="dropDownBut" class="left-btn-drop" type="image" src="images/headSlideMenu1.jpg" name="" onClick="hideShowDiv();return false;">
+					</div>	
+					<div class="dropBlockArea">
+						
+						
+						<div class="divLikeLi1">
+								<div class="divOneoWrapper">
+									<input  class="xBtn" type="image" src="images/x.jpg" onClick="closeLeftDropDown();return false;" >
+								</div>	
+							</div>
+							<div class="divLikeLi2"> 
+								<div class="divTwoWrapper">
+									<form action="">
+										
+										<input  class="searchBtn" type="image" src="images/loupe.jpg"  >
+										<input class="searchInput" type="text" placeholder="    A QUE ESTA PROCUMANTO?" name="">
+									</form>	
+								</div>
+							</div>
+							
+						
+							
+						<ul class="cd-accordion-menu animated">
+						
+							<li>
+								<input type="checkbox" name ="nextbtn" id="nextbtn" >
+								<label for="nextbtn">SOBRE</label>
+								
+							</li>
+							
+							<li>
+								<input type="checkbox" name ="nextbtn" id="nextbtn" >
+								<label for="nextbtn">COLECOES</label>
+								
+							</li>
+						
+							<li class="has-children workOnlyOne">
+								<input type="checkbox" name ="group-1" id="group-1"  >
+								<label for="group-1">CATEGORIA</label>
+								<ul>
+									<li><a href="#0">CATEGORIA</a></li>
+									<li><a href="#0">CATEGORIA</a></li>
+									<li><a href="#0">CATEGORIA</a></li>
+									<li><a href="#0">CATEGORIA</a></li>
+								</ul>
+							</li>
+							
+							
+							<li >
+								<input type="checkbox" name ="nextbtn" id="nextbtn" >
+								<label for="nextbtn">LOOKS</label>
+								
+							</li>
+							
+							
+							<li>
+								<input type="checkbox" name ="nextbtn" id="nextbtn" >
+								<label for="nextbtn">CONTATO</label>
+								
+							</li>
+							
+							<li>
+								<ul class="social-networks">
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul>
+							</li>
+							
+							
+							
+						</ul> <!-- cd-accordion-menu -->					
+													
+					</div>
+				</div>
+			</div>
+			
+			<div class="subBlock col-lg-8 col-sm-8 col-xs-12">
+				<div class="middle-side">
+					<span class="ClothFashion"><b>CLOTH & FASHION</b></span>
+				</div>
+			</div>
+			
+			<div class="subBlock col-lg-8 col-sm-8 col-xs-6">
+				<div class="right-side">
+				
+					<div class="wrapper2dropdownImage">
+						<span class="LogSpan">LOGIN</span>
+						<input id="basketBtn" class="right-btn-drop" type="image" src="images/headSlideMenu2.jpg" name="" onClick="hideShowDivRight();return false;" >
+						
+
+					</div>	
+					<div class="dropBlockArea2">
+						<ul class="dropBlockArea2UL">
+							<li>
+								<span>MEU CARRIHNO</span >
+							</li>
+							<li> 
+							
+								<div class="one" > </div>
+								<div class="two" >
+									<div class="innerTwo" > 
+										<span> <b>Nome do Produto</b></span> 
+										<div class="fullWidth"> <div class="kvadratik"></div></div>
+										<div class="plusMinus">
+											<input type="button" value="-"/> 
+											<input type="text" size="4"  placeholder="88">
+											<input type="button" value="+"/>
+										</div>
+									</div>
+									<div class="innerTwo right" > 
+										<div class="fullWidth"> 
+											<a href="#0"><div class="kvadratik kvad-right"><h3 style="color:black;">X</h3></div></a>
+										</div>
+										<span> R$88,88</span>
+									</div>
+									
+									
+								</div>
+								
+							
+																
+							</li>
+							<li>
+								<div class="one"> </div>
+					<div class="two" > 
+									<div class="innerTwo" > 
+										<span> <b>Nome do Produto</b></span> 
+										<div class="fullWidth"> <div class="kvadratik"></div></div>
+										<div class="plusMinus">
+											<input type="button" value="-"/> 
+											<input type="text" size="4" placeholder="88">
+											<input type="button" value="+"/>
+										</div>
+									</div>
+									<div class="innerTwo right" > 
+									
+										<div class="fullWidth"> 
+											<a href="#0"><div class="kvadratik kvad-right"><h3 style="color:black;">X</h3></div></a>
+										</div>
+										<span> R$88,88</span>
+									</div>
+								
+															
+							</li>
+							<li></li>
+							<li >
+								<span><b><h2>TOTAL</h2></b></span>
+								<span><b><h2>R$88,88</h2></b></span>
+							</li>
+							<li>
+								<div> 
+									<span>CONTINUAR</br>COMPROMADO</span>
+								</div>
+								<div>
+									<span>CHECKOUT</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+				
+					
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="body-wrapper">
+			<div class="air-cell-1">
+				<div class="containerCell1">
+					<ul>
+						<li class="carousel-arrow-left toLeftClothes"></li>
+						<li>PRODUTOS EM DESTAQUE</li>
+						<li class="carousel-arrow-right toRightClothes"></li>
+					</ul>
+				</div>	
+			</div>
+			
+			
+			<div class="mainSlider">
+				<div class="mainSliderArea">
+				
+				<div class="carousel-arrow-left toLeftClothes"> <img src="images/ArrowSliderLeft.jpg" ></div>
+						<div class="carousel-hider guysInClothers">
+							<ul class="carousel-list clothesList" >
+								<li><div class="carousel-element"></div> <div><p >R$88.88</p> <p class="hiddenSpaceP" > hidden </p> </div>	</li>
+								<li><div class="carousel-element"></div> <div><p>R$88.88</p> <p class="hiddenP"><b>2X R$44,44</b></p></div>	</li>
+								<li><div class="carousel-element"></div><div><p> <strike class="hiddenStrike"> R$88.88 </strike> <p class="dublicateP">R$88.88</p> </p> <p class="hiddenP"><b>R$78,88</b></p> </div>	</li>
+								<li><div class="carousel-element"></div><div><p>R$88.88</p> <p class="hiddenP"><b>2x R$44,44</b></p> </div>	</li>
+								<li><div class="carousel-element"></div><div><p> <strike class="hiddenStrike"> R$88.88 </strike> <p class="dublicateP">R$88.88</p> </p> <p class="hiddenP"><b>R$78,88</b></p> </div>	</li>
+								<li><div class="carousel-element"></div><div><p>R$88.88</p> <p class="hiddenSpaceP" > hidden </p>  </div></li>
+							</ul>
+						</div>
+					<div class="carousel-arrow-right toRightClothes"> <img src="images/ArrowSliderRight.jpg" ></div>
+				
+				
+				</div>
+			</div>
+			
+			
+			
+			<div class="wrappermainTHeme">
+					
+				<div class="midSymbolDiv">
+					<div class="midSymbolImg">  </div>
+					<div class="helper"></div>
+				</div>
+			
+				<div class="mainContainer">
+					<ul class="clothesUl">
+					  	<li></li>
+						<li></li>
+					 	<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+				
+				<div class="air-cell-1">
+					<div class="containerCell1">
+						<ul>
+							<li class="carousel-arrow-left toLeftFighters" onClick="fightersCarousel();return false;"></li>
+							<li>GALERIA DO INSTAGRAM</li>
+							<li class="carousel-arrow-right toRightFighters" onClick="fightersCarousel();return false;"></li>
+						</ul>
+					</div>	
+				</div>
+			</div>
+			<div class="botSliderOne">
+				<div class="mainSliderArea gallInstagram forBackground540" >
+				
+				
+						<div class="carousel-hider"  >
+							<ul class="carousel-list fightersList" >
+								<li><div class="carousel-element"></div></li>
+								<li><div class="carousel-element"></div></li>
+								<li><div class="carousel-element "></div></li>
+								<li><div class="carousel-element"></div></li>
+								<li><div class="carousel-element"></div></li>
+								
+							</ul>
+						</div>
+					
+				
+				
+				</div>
+			</div>
+			<div class="air-cell-1">
+					<div class="containerCell1 quemUsaReFix">
+						<ul>
+							<li class="carousel-arrow-left toLeftGuetta"></li>
+							<li>QUEM USA</li>
+							<li class="carousel-arrow-right toRightGuetta"></li>
+						</ul>
+					</div>	
+			</div>
+				<div class="mainSliderArea gallInstagram redefiner" >
+				
+				
+						<div class="carousel-hider"  >
+							<ul class="carousel-list GuettaList" >
+								<li><div class="carousel-element"></div></li>
+								<li><div class="carousel-element"></div></li>
+								<li><div class="carousel-element"></div></li>
+								<li><div class="carousel-element"></div></li>
+							</ul>
+						</div>
+					
+				
+				
+				</div>
+				<div class="btn-input-side gallInstagram mainSliderArea">
+					<div class="containerBtn">
+						<ul>
+							<li><div>NEWSLETTER</div></li>
+							<li><input type="text" placeholder="Home"  /></li>
+							<li><input type="text" placeholder="Endereco De Email" /></li>
+							<li><div>CODASTAR</div></li>
+							
+						</ul>
+					</div>	
+				</div>
+				<div class="bottomLine">
+					<div class="botLeftEmptiness"> </div>
+					<div class="botRightEmptiness"> </div>
+					<ul class="botTextUl">
+						<li>SOBRE</li>
+						<li>CONTATO</li>
+						<li>TERMOD & CONDICOES</li>
+						<li>POLITICA DE PRIVACIDADE</li>
+						<li class="botImgLi1"><a href="#0"></a></li>
+						<li class="botImgLi2"><a href="#0"></a></li>
+						<li class="botImgLi3"><a href="#0"></a></li>
+					</ul>
+					
+				</div>
+				<div class="lastBotMenu"> <span class="lastText"> <font size="6"><b>ene<font color="#00a1b0">x</font>t</b></font><font size="4" color="#bbbabb">group</font></span></div>
+		</div>
+		
+	
+	
+	</div>
+  </body>
+  
+</html>
