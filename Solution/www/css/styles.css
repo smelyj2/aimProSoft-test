@@ -3,3 +3,6 @@
 	.dropBlockArea,.dropBlockArea2{display:none !important;}
 	.containerBtn {margin-left:20%;}
 }
+@media (max-width: 540px){
+	.containerBtn {margin-left:0%;}
+}	
